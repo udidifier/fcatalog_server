@@ -82,7 +82,7 @@ printf "\nGetting required python packages:\n\n"
 
 
 # Downloads packages
-$INITIAL_ENV/bin/pip install dep/packages -r requirements.txt
+$INITIAL_ENV/bin/pip install dep/packages/*.whl -r requirements.txt
 
 # Remove the temporary python environment:
 rm -rf $INITIAL_ENV
