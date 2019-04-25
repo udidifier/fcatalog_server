@@ -12,7 +12,7 @@ set -e
 ###################################
 
 # Version of virtualenv:
-VERSION=13.1.2
+VERSION=16.5.0
 # Virtualenv tgz filename:
 VENV_TGZ=virtualenv-$VERSION.tar.gz
 VENV_DIR=virtualenv-$VERSION
@@ -24,7 +24,7 @@ INITIAL_ENV=temp_env
 PYTHON=$(which python3)
 
 # URL of pypi to get virtualenv package:
-URL_BASE=https://pypi.python.org/packages/source/v/virtualenv
+URL_BASE=https://files.pythonhosted.org/packages/6a/56/74dce1fdeeabbcc0a3fcf299115f6814bd9c39fc4161658b513240a75ea7
 
 printf "\nDownloading virtualenv:\n\n"
 
